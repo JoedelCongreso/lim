@@ -58,193 +58,345 @@ body {
         display: none;
     }
 }
+/* event side  */
 
-.container{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-gap: 40px;
-        margin-top: 20px;
-}
+.row{
+   margin: auto;
 
-.container-backbt span{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: #1e3050; 
 }
-/*img event page */
+.row col-sm-8 p-3 bg-white{
+    margin-top: 50px;
+}
 .event_poster img{
-    margin-top: 40px;
+
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 70%;
+    width: 70%;
+
+}
+/* back button */
+.container_backbt a{
+
+    margin-top: 10px;
+    margin-right: 180px;
+    font-family:'Poppins', sans-serif;
+    color: #1e3050;
+    font-size: 2rem;
+}
+/* title of event  */
+.Event_title{
+    float:left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin: 5px;
+    font-family:'Poppins', sans-serif;
+    color: #1e3050;
+    font-size: 1rem;
+}
+
+.event-star b{
+    margin-top: 10px;
     margin-left: 5px;
-    height: 300px;
-    width: 300px;
+    font-family:'Poppins', sans-serif;
+    color: #8a8a8a;
+    font-size: smaller;
+}
+.view-number {
+    margin-top: -20px;
+    margin-left: 200px;
+    font-size: 1rem;
 }
 
-
-.event_details{
-    text-align: left;
-    margin-top: -350px;
-    margin-left: 500px;
-    
+.container1 span{
+    font-family:'Poppins', sans-serif;
+    font-size: smaller;
 }
-.event_details h2{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+
+/* date of event  */
+.event-date b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
     color: #1e3050;
 }
-.view-number{
-    text-align: left;
-    margin-top: -23px;
-    margin-left: 250px;
-}
-.event-date{
-    text-align: left;
-    margin-top: 10px;
-    margin-left: -250px;
-}
-.event-date h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: #767676e1;
-}
-
-/* date of event */
 .date{
-    text-align: left;
-    margin-top: -33px;
-    margin-left: 70px;
+    margin-top: -20px;
+    margin-left: 200px;
+    font-size: 1rem;
 }
-.date h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: #000000e1;
+.date b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #8a8a8a;
 }
 
-/* location of Event */
-.Campus-location{
-    text-align: left;
-    margin-top: 10px;
-    margin-left:-70px;
+/* campus location */
+.Campus-location b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #1e3050;
 }
-.Campus-location h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color:  #767676e1;
+.location{
+    margin-top: -20px;
+    margin-left: 200px;
+    font-size: 1rem;
 }
-.location h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color:  #000000e1;
-    text-align: left;
-    margin-top: -33px;
-    margin-left: 100px;
+.location b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #8a8a8a;
 }
 
 /* type of event  */
 
-.Event-type{
-    text-align: left;
-    margin-top: 40px;
-    margin-left:-100px;
-}
-.Event-type h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color:  #767676e1;
+.Event-type b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #1e3050;
 }
 .event{
-    text-align: left;
-    margin-top: -33px;
-    margin-left: 160px;
+    margin-top: -20px;
+    margin-left: 200px;
+    font-size: 1rem;
 }
-.event h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color:  #000000e1;
+.event b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #8a8a8a;
 }
 
-/* attendance */
-.attendance-required{
-    text-align: left;
-    margin-top: 40px;
-    margin-left:-160px;
-}
-.attendance-required h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color:  #767676e1;
+/* attendance required  */
+
+.attendance-required b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #1e3050;
 }
 .num_required{
-    text-align: left;
-    margin-top: -33px;
-    margin-left: 160px;
+    margin-top: -20px;
+    margin-left: 200px;
+    font-size: 1rem;
 }
-.num_required h5 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: #d81313;
+.num_required b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #8a8a8a;
 }
-/* department invited */
-.Department {
-    text-align: left;
-    margin-top: 40px;
-    margin-left:-160px;
+.Attendance_limited{
+        margin-top: -20px;
+        margin-left: 200px;
+        font-size: 1rem;
 }
-.Department h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color:  #767676e1;
+.Attendance_limited b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #1c7be0;
+}
+.attendance_voluntary{
+    margin-top: -20px;
+    margin-left: 200px;
+    font-size: 1rem;
+}
+.attendance_voluntary b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: green;
+}
+
+/* Department of invited  */
+
+.Department b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #1e3050;
 }
 .department_name{
-    text-align: left;
-    margin-top: -33px;
-    margin-left: 160px;
+    margin-top: -20px;
+    margin-left: 200px;
+    font-size: 1rem;
 }
-.department_name h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color:  #000000e1;
+.department_name b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #8a8a8a;
 }
 
-/* duration of event */
-.Duration {
-    text-align: left;
-    margin-top: 40px;
-    margin-left:-160px;
-}
-.Duration h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color:  #767676e1;
+/* Time Duration of Event  */
+
+.Duration b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #1e3050;
 }
 .duration_time{
-    text-align: left;
-    margin-top: -33px;
-    margin-left: 160px;
+    margin-top: -20px;
+    margin-left: 200px;
+    font-size: 1rem;
 }
-.duration_time h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color:  #000000e1;
+.duration_time b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #8a8a8a;
 }
 
-/* organized by */
-.by {
-    text-align: left;
-    margin-top: 40px;
-    margin-left:-160px;
-}
-.by h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color:  #767676e1;
+/* organized by ? */
+
+.by b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #1e3050;
 }
 .organizer_name{
-    text-align: left;
-    margin-top: -33px;
-    margin-left: 160px;
+    margin-top: -20px;
+    margin-left: 200px;
+    font-size: 1rem;
 }
-.organizer_name h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color:  #000000e1;
+.organizer_name b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #8a8a8a;
+}
+.share_bt{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #8a8a8a;
+}
+.button-container a {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+}
+/* ------------------------------------------------------------------------------------------ */
+/* Discription  */
+
+.Discription{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right:30px;
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #8a8a8a;
+}
+.Discription p{
+    margin-top: 15px;
+    color: black;
+    text-indent: 50px;
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+
+}
+/* Scheduled events */
+.timeline {
+    position: relative;
+    padding: 20px;
+}
+/*  */
+.programs{
+    color: #007bff;
+
+}
+.timeline-item {
+    position: relative;
+    border-left: 2px solid #007bff;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s, transform 0.8s;
+}
+
+.timeline-item.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.dot {
+    width: 16px;
+    height: 16px;
+    background-color: #007bff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -8px; 
+}
+.timeline b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #4570ba;
+
+}
+.timeline p{
+    margin-left: 150px;
+    margin-top: -25px;
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #000000;
+}
+/* HOST AND PARTICIPANTS NAMES  */
+.host_names b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #212020;
+}
+.host i b{
+    margin-bottom: 10px;
+    font-size: 2.3vh;
+    font-family:'Poppins', sans-serif;
+    color: #212020;
+}
+.participants_name b{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #212020;
+}
+.participants_name i b{
+    margin-bottom: 10px;
+    font-size: 2.3vh;
+    font-family:'Poppins', sans-serif;
+    color: #212020;
+}
+/* featured store carousel */
+@media screen and(min-width:576px){
+    .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/4);
+    }
+}
+.col{
+    margin: 5px;
+}
+
+.carousel-inner{
+    padding: 1em;
+}
+.card-img-top{
+    margin: 5px;
+    width: 18rem;
+    
+}
+
+.img-wrapper{
+    align-items: center;
+    height: 300px;
+    width: 200px;
+}
+.card-title h5{
+    font-size: 2.6vh;
+    font-family:'Poppins', sans-serif;
+    color: #4570ba;
+}
+.card-text p{
+    margin-bottom: 10px;
+    font-size: 2.3vh;
+    font-family:'Poppins', sans-serif;
+    color: #212020;
 }
